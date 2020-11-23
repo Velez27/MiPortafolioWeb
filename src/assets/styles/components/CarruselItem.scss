@@ -1,10 +1,12 @@
+@import '../Vars.scss';
+
 .carousel-item {
-    border-radius: 20px;
+    border-radius: 2rem;
     overflow: hidden;
     position: relative;
     display: inline-block;
-    width: 200px;
-    height: 250px;
+    width: 20rem;
+    height: 25rem;
     margin-right: 10px;
     font-size: 20px;
     cursor: pointer;
@@ -14,13 +16,13 @@
   }
   
   .carousel-item:hover ~ .carousel-item {
-    -webkit-transform: translate3d(100px, 0, 0);
-    transform: translate3d(100px, 0, 0);
+    -webkit-transform: translate3d(10rem, 0, 0);
+    transform: translate3d(10rem, 0, 0);
   }
   
   .carousel-item__img {
-    width: 200px;
-    height: 250px;
+    width: 20rem;
+    height: 25rem;
     -o-object-fit: cover;
     object-fit: cover;
   }
@@ -34,20 +36,20 @@
     );
     bottom: 0;
     display: flex;
-    font-size: 10px;
+    font-size: 1rem;
     flex-direction: column;
     justify-content: flex-end;
     left: 0;
     opacity: 0;
     transition: 450ms opacity;
-    padding: 10px;
+    padding: 1rem;
     position: absolute;
     right: 0;
     top: 0;
   }
   
   .carousel-item__details--img {
-    width: 20px;
+    width: 2rem;
   }
   
   .carousel-item:hover .carousel-item__details {
@@ -55,13 +57,13 @@
   }
   
   .carousel-item__details--title {
-    color: white;
-    margin: 5px 0px 0px 0px;
+    color: $primary-color-text;
+    margin: .5rem 0rem 0rem 0rem;
   }
   
   .carousel-item__details--subtitle {
-    color: white;
-    font-size: 8px;
-    margin: 3px 0px;
+    color: $primary-color-text;
+    font-size: .8rem;
+    margin: .3rem 0rem;
   }
   

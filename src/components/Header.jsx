@@ -2,30 +2,27 @@ import React from 'react';
 import '../assets/styles/components/Header.scss';
 
 import logo from '../assets/static/logo-rubik.png';
-import userIcon from '../assets/static/logo-rubik.png';
 
-const Header = () => (
+const Header = () => {
+
+  const title = 'Ing. Jesus Velez Flores';
+  const imgTitle = 'Ingeniero en Sistemas';
+  return (
   <header className='header'>
+    <div className='header__container'>
+    <figure>
     <img
       className='header__img'
       src={logo}
-      alt='Platzi Video'
+      alt='Cubo Rubik'
     />
-    <div className='header__menu'>
-      <div className='header__menu--profile'>
-        <img src={userIcon} alt='Icono' />
-        <p>Perfil</p>
-      </div>
-      <ul>
-        <li>
-          <a href='/'>Cuenta</a>
-        </li>
-        <li>
-          <a href='/'>Cerrar Sesión</a>
-        </li>
-      </ul>
+    {imgTitle}
+    </figure>
+    <h1 className='header__title'>
+      {title}
+    </h1>
     </div>
   </header>
-);
+)};
 
 export default Header;
