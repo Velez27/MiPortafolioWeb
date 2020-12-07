@@ -1,5 +1,4 @@
 import React from 'react';
-import HolaMundo from '../components/HolaMundo';
 import '../assets/styles/App.scss';
 import Header from '../components/Header';
 import AcercaDe from '../components/AcercaDe';
@@ -15,10 +14,10 @@ const App = () => (
     <AcercaDe></AcercaDe>
     <ListaProyectos title='Mis Proyectos'>
       <Carrusel>
-        <CarruselItem />
-        <CarruselItem />
-        <CarruselItem />
-        <CarruselItem />
+        <CarruselItem title="Proyecto Personal" description="Consumiendo una API" />
+        <CarruselItem title="Proyecto Personal" description="Consumiendo una API" />
+        <CarruselItem title="Proyecto Personal" description="Consumiendo una API" />
+        <CarruselItem title="Proyecto Personal" description="Consumiendo una API" />
       </Carrusel>
     </ListaProyectos>
     <Footer></Footer>
