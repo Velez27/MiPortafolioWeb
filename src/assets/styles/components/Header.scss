@@ -1,0 +1,26 @@
+@import '../Vars.scss';
+
+.header {
+  border-top:  1rem solid $primary-color-dark;
+  height: 10vh;
+}
+
+.header__container {
+    align-items: center;
+    background: $primary-color;
+    color: $primary-color-text;
+    display: flex;
+    height: 6rem;
+    justify-content: space-between;
+    width: 100%;
+    border-top: .1rem solid $primary-color-text;
+  }
+
+  .header__title {
+    margin-right: 3rem;
+  }
+  
+  .header__img {
+    margin-left: 3rem;
+    width: 4rem;
+  }

@@ -1,0 +1,16 @@
+@import '../Vars.scss';
+
+.lista__proyectos {
+  margin-top: .1rem;
+  background-color: $secondary-color;
+}
+
+.lista__proyectos--title {
+  text-align: center;
+    background: $secondary-color;
+    color: $secondary-color-text;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    position: absolute;
+    width: 100%;
+  }
