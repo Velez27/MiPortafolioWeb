@@ -6,11 +6,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     color: $primary-color-text;
-    height: 4vh;
-    position: absolute;
-    bottom: 0;
+    height: 6vh;
+    /*position: absolute;
+    bottom: 0;*/
     width: 100%;
 }
 
