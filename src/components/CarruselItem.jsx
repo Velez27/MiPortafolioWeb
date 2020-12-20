@@ -1,13 +1,11 @@
 import React from 'react';
 import '../assets/styles/components/CarruselItem.scss';
 
-import proyectImage from '../assets/static/proyecto-rickandmorty.png'
-
-const CarruselItem = ({title, description, children}) => (
+const CarruselItem = ({projectImage, title, description, children}) => (
   <div className='carousel-item'>
     <img
       className='carousel-item__img'
-      src={proyectImage}
+      src={projectImage}
       alt='Project Image'
     />
     <div className='carousel-item__details'>
