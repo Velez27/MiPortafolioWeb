@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/components/AcercaDe.scss';
-import fotoPerfil from '../assets/static/proyecto-rickandmorty.png';
+import fotoPerfil from '../assets/static/foto-perfil.jpg';
 import linkedin from '../assets/static/linkedin.png';
 import github from '../assets/static/github.png';
 import miCV from '../assets/static/cv.png';

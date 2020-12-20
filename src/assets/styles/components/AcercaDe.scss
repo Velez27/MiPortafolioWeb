@@ -9,14 +9,15 @@
 }
 
 .acercaDe__foto--perfil img{
-    width: 18rem;
-    height: 18rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 30rem;
 }
 
 .acercaDe__descripcion{
     display: block;
     width: 60rem;
+    text-align: justify;
 }
 
 .acercaDe__enlaces{
@@ -24,11 +25,12 @@
     margin-bottom: 1rem;
     display: flex;
     gap: 5rem;
+    justify-self: flex-end;
 }
 
 .acercaDe__enlaces img {
-    width: 8rem;
-    height: 8rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .acercaDe__enlaces img:hover{
