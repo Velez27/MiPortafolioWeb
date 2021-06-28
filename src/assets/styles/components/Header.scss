@@ -1,8 +1,7 @@
 @import '../Vars.scss';
 
 .header {
-  border-top:  1rem solid $primary-color-dark;
-  height: 8vh;
+  height: 100%;
 }
 
 .header__container {
@@ -10,10 +9,13 @@
     background: $primary-color;
     color: $primary-color-text;
     display: flex;
-    height: 6rem;
+    height: 8rem;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     border-top: .1rem solid $primary-color-text;
+    margin: 0.1rem 0;
+    
   }
 
   .header__title {

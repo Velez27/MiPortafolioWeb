@@ -3,7 +3,7 @@ import '../assets/styles/components/Footer.scss';
 
 const Footer = () => {
 
-    const messageFooterLeft = 'Mi Espacio en la WEB para Mostrar mis Proyectos';
+    const messageFooterLeft = 'Mi Espacio en la WEB para Mostrar mis Habilidades';
     const messageFooterRight = 'Desing With 💙';
 
     return (

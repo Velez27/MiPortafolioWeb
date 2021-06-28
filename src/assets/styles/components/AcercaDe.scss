@@ -2,15 +2,32 @@
 
 .acercaDe {
     background-color: $secondary-color;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 1rem;
 }
 
+.acercaDe_izquierda{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.acercaDe_derecha{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.acercaDe__foto--perfil{
+    text-align: center;
+}
+
 .acercaDe__foto--perfil img{
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 30rem;
 }
 
@@ -35,4 +52,64 @@
 
 .acercaDe__enlaces img:hover{
     transform: scale(1.1);
+}
+
+.habilidades{
+    font-size: 1.5rem;
+}
+
+.experiencia__table--title,
+.habilidades__table--title{
+    font-size: 2rem;
+    column-span: 2;
+    text-align: center;
+}
+
+.experiencia_table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.escala_uno{
+    width: 10%;
+    border: .2rem solid red;
+    border-radius: 2rem;
+}
+
+.escala_dos{
+    width: 20%;
+    border: .2rem solid yellow;
+    border-radius: 2rem;
+}
+
+.escala_tres{
+    width: 30%;
+    border: .2rem solid green;
+    border-radius: 2rem;
+}
+
+.habilidades{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+
+.habilidades__table{
+    width: 100%;
+}
+
+.habilidades__table td{
+    text-align: center;
+}
+
+@media screen and (max-width: 1250px){
+    .acercaDe_izquierda {
+        width: 100%;
+    }
+
+    .acercaDe_derecha {
+        width: 100%;
+    }
 }

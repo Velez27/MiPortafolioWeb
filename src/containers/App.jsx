@@ -2,7 +2,6 @@ import React from 'react';
 import '../assets/styles/App.scss';
 import Header from '../components/Header';
 import AcercaDe from '../components/AcercaDe';
-import Experiencia from '../components/Experiencia';
 import ListaProyectos from '../components/ListaProyectos';
 import Carrusel from '../components/Carrusel';
 import CarruselItem from '../components/CarruselItem';
@@ -24,7 +23,6 @@ const App = () => (
   <div className='App'>
     <Header/>
     <AcercaDe/>
-    <Experiencia/>
     <ListaProyectos title='Mis Proyectos'>
       <Carrusel>
         <CarruselItem projectImage={proyectImage} linkGitProject="https://github.com/Velez27/MiPortafolioWeb" title="Proyecto Personal" description="Consumiendo una API">
