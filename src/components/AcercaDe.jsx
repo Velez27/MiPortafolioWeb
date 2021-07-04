@@ -11,7 +11,7 @@ const AcercaDe = () => (
             <figure className='acercaDe__foto--perfil'>
                 <img src={fotoPerfil} alt='Mi Foto' />
             </figure>
-            <h2 className='acercaDe__descripcion'>
+            <h2 tabindex="0" className='acercaDe__descripcion'>
                 Hola! Mi nombre es Jesús Vélez. Soy Ingeniero en Sistemas con
                 conocimientos en Desarrollo Web. Busco colaborar en una posición
                 donde pueda aplicar mis conocimientos en JavaScript, HTML, CSS y
@@ -36,10 +36,32 @@ const AcercaDe = () => (
                 </figure>
             </article>
             <div className="habilidades">
-
-                <table className="habilidades__table">
+                <p className='habilidades__title'>Mis Habilidades Tecnicas</p>
+                <div className='column1'>
+                    🐪 JavaScript – Intermedio <br />
+                        
+                    Java – Intermedio <br />
+                        
+                    TypeScript – Básico <br />
+                       
+                    HTML – Intermedio <br />
+                       
+                    CSS – Intermedio <br />
+                </div>
+                <div className='column2'>
+                    MySQL – Intermedio <br />
+                        
+                    MongoDB – Básico <br />
+                       
+                    Node.js – Básico <br />
+                       
+                    Git – Intermedio <br />
+                        
+                    React js – Básico <br />
+                </div>
+             {/*    <table className="habilidades__table">
                     <tr>
-                        <th className="habilidades__table--title">Mis Habilidades Tecnicas</th>
+                        <p className="habilidades__table--title">Mis Habilidades Tecnicas</p>
                     </tr>
                     <tr>
                         <td> 
@@ -67,7 +89,7 @@ const AcercaDe = () => (
                         
                         </td>
                     </tr>
-                </table>
+                </table> */}
             </div>
         </div>
         <div className='acercaDe_derecha'>

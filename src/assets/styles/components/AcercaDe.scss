@@ -56,13 +56,38 @@
 
 .habilidades{
     font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'title title'
+                         'column1 column2';
+    justify-items: center;
 }
 
-.experiencia__table--title,
+.habilidades__title{
+    grid-area: title;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.column1{
+    grid-area: column1;
+}
+
+.column2{
+    grid-area: column2;
+}
+
+.experiencia__table--title{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
 .habilidades__table--title{
     font-size: 2rem;
-    column-span: 2;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .experiencia_table{
