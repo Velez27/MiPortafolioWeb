@@ -38,58 +38,27 @@ const AcercaDe = () => (
             <div className="habilidades">
                 <p className='habilidades__title'>Mis Habilidades Tecnicas</p>
                 <div className='column1'>
-                    🐪 JavaScript – Intermedio <br />
+                    🐬 JavaScript – Intermedio <br />
                         
-                    Java – Intermedio <br />
+                    🦉 Java – Intermedio <br />
                         
-                    TypeScript – Básico <br />
+                    🐪 TypeScript – Básico <br />
                        
-                    HTML – Intermedio <br />
+                    🐿️ HTML – Intermedio <br />
                        
-                    CSS – Intermedio <br />
+                    🐑 CSS – Intermedio <br />
                 </div>
                 <div className='column2'>
-                    MySQL – Intermedio <br />
+                    🐘 MySQL – Intermedio <br />
                         
-                    MongoDB – Básico <br />
+                    🐒 MongoDB – Básico <br />
                        
-                    Node.js – Básico <br />
+                    🦏 Node.js – Básico <br />
                        
-                    Git – Intermedio <br />
+                    🦇 Git – Intermedio <br />
                         
-                    React js – Básico <br />
+                    🐧 React js – Básico <br />
                 </div>
-             {/*    <table className="habilidades__table">
-                    <tr>
-                        <p className="habilidades__table--title">Mis Habilidades Tecnicas</p>
-                    </tr>
-                    <tr>
-                        <td> 
-                        🐪 JavaScript – Intermedio <br />
-                        
-                        Java – Intermedio <br />
-                        
-                        TypeScript – Básico <br />
-                        
-                        HTML – Intermedio <br />
-                        
-                        CSS – Intermedio <br />
-                        
-                        </td>
-                        <td>
-                        MySQL – Intermedio <br />
-                        
-                        MongoDB – Básico <br />
-                        
-                        Node.js – Básico <br />
-                        
-                        Git – Intermedio <br />
-                        
-                        React js – Básico <br />
-                        
-                        </td>
-                    </tr>
-                </table> */}
             </div>
         </div>
         <div className='acercaDe_derecha'>

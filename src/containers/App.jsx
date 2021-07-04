@@ -34,6 +34,14 @@ const App = () => (
           <CarruselItemImage icono={jsIcon} alt={altIconJS} />
           <CarruselItemImage icono={cssIcon} alt={altIconJS} />
         </CarruselItem>
+        <CarruselItem projectImage={proyectImage} title="Proyecto Privado" description="Pagina Web">
+          <CarruselItemImage icono={jsIcon} alt={altIconJS} />
+          <CarruselItemImage icono={cssIcon} alt={altIconJS} />
+        </CarruselItem>
+        <CarruselItem projectImage={proyectImage} title="Proyecto Privado" description="Pagina Web">
+          <CarruselItemImage icono={jsIcon} alt={altIconJS} />
+          <CarruselItemImage icono={cssIcon} alt={altIconJS} />
+        </CarruselItem>
       </Carrusel>
     </ListaProyectos>
     <Footer/>

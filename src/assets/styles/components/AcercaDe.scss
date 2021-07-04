@@ -3,6 +3,8 @@
 .acercaDe {
     background-color: $secondary-color;
     padding: 1rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
 }
 
 .acercaDe_izquierda{
@@ -39,7 +41,7 @@
 
 .acercaDe__enlaces{
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     display: flex;
     gap: 5rem;
     justify-self: flex-end;
@@ -68,7 +70,7 @@
     grid-area: title;
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .column1{
