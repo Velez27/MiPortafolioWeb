@@ -9,7 +9,8 @@
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --env development",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "npx": "npx"
   },
   "keywords": [],
   "author": "",
