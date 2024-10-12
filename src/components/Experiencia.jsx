@@ -6,7 +6,7 @@ const Experiencia = () => (
         <h3 className='experiencia_title'>Mis Conocimientos y Experiencia</h3>
         <table className="experiencia_table">
             <tr>
-                <th>Empresa: Kavak.</th>
+                <th>Empresa: Kavak</th>
             </tr>
             <tr>
                 <ul>

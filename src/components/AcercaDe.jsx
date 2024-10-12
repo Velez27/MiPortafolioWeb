@@ -67,6 +67,27 @@ const AcercaDe = () => (
                         <th className="experiencia__table--title">Mi Experiencia</th>
                     </tr>
                     <tr>
+                        <th>
+                            Empresa: Kavak
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Periodo: Febrero/2022 – Actual <br />
+                            Puesto: Ingeniero de Software. <br />
+                            Actividades:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        ✔️ Crear scripts (suitescript 1.0 y 2.0) para integrar servicios externos a netsuite que la empresa requiere de acuerdo a su modelo de negocio. <br />
+                        ✔️ Restlets, Suitelets, Client Script, UserEvent Script, MassUpdate, Map/Reduce. <br />
+                        ✔️ Manejo de Git y GitLab para mantener los repositorios del equipo de Desarollo Netsuite. <br />
+                        ✔️ Crear API en Golang, para interactuar con proveedores e impactar acciones en Netsuite(crear facturas).<br />
+                        ✔️ Ajustes de lógica y/o mejoras a proyectos en Go Lang y Java(API’s).
+                        </td>
+                    </tr>
+                    <tr>
                         <th>Empresa: Entersol</th>
                     </tr>
                     <tr>
@@ -84,26 +105,6 @@ const AcercaDe = () => (
                         ✔️ Creación y manipulación de Bundlers. <br />
                         ✔️ Creación de módulos personalizados en Netsuite para la captura de información. <br />
                         ✔️ Creación de scripts (suitescript 1.0 y 2.0) y Workflows para definir la lógica de uso en los registros nativos y personalizados de Netsuite. 
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            Empresa: Universidad de la República Mexicana
-                            (UNIREM).
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>
-                            Periodo: Octubre/2019 – Junio/2020 <br />
-                            Puesto: Soporte Técnico. <br />
-                            Actividades:
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        ✔️ Crear queries SQL para extraer información de la BD de la escuela, utilizando el software TOAD (Aplicación para administrar DB). <br />
-                        ✔️ Trabajar con compañeros de área y de otras áreas para dar apoyo y solución a problemas relacionados a TI en cumplimiento de tiempos de entrega. <br />
-                        ✔️ Aprender el uso de nuevo software o nuevas versiones para capacitar a personal administrativo y/o docente (SABRE, CodeBlocks, Office, Paquetería Adobe).
                         </td>
                     </tr>
                 </table>
