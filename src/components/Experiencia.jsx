@@ -10,7 +10,7 @@ const Experiencia = () => (
             </tr>
             <tr>
                 <ul>
-                    <li>Periodo: Febrero/2022 – Junio/2020</li>
+                    <li>Periodo: Febrero/2022 – Actual</li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
                     <li>Puesto: Ingeniero de Software.</li>
                     <li>Actividades:</li>
                 </ul>
