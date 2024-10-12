@@ -34,15 +34,15 @@ const AcercaDe = () => (
             <div className="habilidades">
                 <p className='habilidades__title'>Mis Habilidades Tecnicas</p>
                 <div className='column1'>
-                    🐬 JavaScript – Intermedio <br />
+                    🐬 JavaScript – Avanzado <br />
                         
                     🦉 Java – Intermedio <br />
                         
-                    🐪 TypeScript – Básico <br />
+                    🐪 Golang – Intermedio <br />
                        
-                    🐿️ HTML – Intermedio <br />
+                    🐿️ SuiteScript 1.0 – Avanzado <br />
                        
-                    🐑 CSS – Intermedio <br />
+                    🐑 SuiteScript 2.x – Avanzado <br />
                 </div>
                 <div className='column2'>
                     🐘 MySQL – Intermedio <br />
