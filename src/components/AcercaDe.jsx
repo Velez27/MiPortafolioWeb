@@ -92,7 +92,7 @@ const AcercaDe = () => (
                     </tr>
                     <tr>
                         <td>
-                            Periodo: Julio/2020 – Actual<br />
+                            Periodo: Julio/2020 – Enero/2022<br />
                             Puesto: Desarrollador Netsuite / Analista TI <br />
                             Actividades:
                         </td>
