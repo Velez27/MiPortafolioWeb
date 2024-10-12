@@ -12,11 +12,7 @@ const AcercaDe = () => (
                 <img src={fotoPerfil} alt='Mi Foto' />
             </figure>
             <h2 tabindex="0" className='acercaDe__descripcion'>
-                Hola! Mi nombre es Jesús Vélez. Soy Ingeniero en Sistemas con
-                conocimientos en Desarrollo Web. Busco colaborar en una posición
-                donde pueda aplicar mis conocimientos en JavaScript, HTML, CSS y
-                tecnologías relacionadas al Desarrollo de Aplicaciones Web y
-                Móviles.
+            Soy un profesional con experiencia en soporte técnico y desarrollo de software, especializado en NetSuite. Comencé en soporte técnico, adquiriendo habilidades en reparación de equipos y administración de redes. Luego, me enfoqué en desarrollo de software, trabajando con lenguajes como JavaScript, HTML, CSS, y SuiteScript (1.0 y 2.x) para personalizaciones en Netsuite. Más recientemente, he participado en multiples implementaciones de instancias de NetSuite, migración de sistemas y desarrollado/optimizado APIs con Go y Java para automatizar procesos estratégicos del modelo de negocio de empresas.
             </h2>
             <article className='acercaDe__enlaces'>
                 <figure>
