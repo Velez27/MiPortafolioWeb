@@ -6,11 +6,30 @@ const Experiencia = () => (
         <h3 className='experiencia_title'>Mis Conocimientos y Experiencia</h3>
         <table className="experiencia_table">
             <tr>
+                <th>Empresa: Kavak.</th>
+            </tr>
+            <tr>
+                <ul>
+                    <li>Periodo: Febrero/2022 – Junio/2020</li>
+                    <li>Puesto: Ingeniero de Software.</li>
+                    <li>Actividades:</li>
+                </ul>
+            </tr>
+            <tr>
+                <ul>
+                    <li>Crear scripts (suitescript 1.0 y 2.0) para integrar servicios externos a netsuite que la empresa requiere de acuerdo a su modelo de negocio.</li>
+                    <li>Restlets, Suitelets, Client Script, UserEvent Script, MassUpdate, Map/Reduce.</li>
+                    <li>Manejo de Git y GitLab para mantener los repositorios del equipo de Desarollo Netsuite.</li>
+                    <li>Crear API en Golang, para interactuar con proveedores e impactar acciones en Netsuite(crear facturas).</li>
+                    <li>Ajustes de lógica y/o mejoras a proyectos en Go Lang y Java(API’s).</li>
+                </ul>
+            </tr>
+            <tr>
                 <th>Empresa: Entersol</th>
             </tr>
             <tr>
                 <ul>
-                    <li>Periodo: Julio/2020 – Actual</li>
+                    <li>Periodo: Julio/2020 – Enero/2022</li>
                     <li>Puesto: Desarrollador Netsuite / Analista TI</li>
                     <li>Actividades:</li>
                 </ul>
@@ -23,23 +42,6 @@ const Experiencia = () => (
                     <li>Creación y manipulación de Bundlers.</li>
                     <li>Creación de módulos personalizados en Netsuite para la captura de información.</li>
                     <li>Creación de scripts (suitescript 1.0 y 2.0) y Workflows para definir la lógica de uso en los registros nativos y personalizados de Netsuite.</li>
-                </ul>
-            </tr>
-            <tr>
-                <th>Empresa: Universidad de la República Mexicana (UNIREM).</th>
-            </tr>
-            <tr>
-                <ul>
-                    <li>Periodo: Octubre/2019 – Junio/2020</li>
-                    <li>Puesto: Soporte Técnico.</li>
-                    <li>Actividades:</li>
-                </ul>
-            </tr>
-            <tr>
-                <ul>
-                    <li>Crear queries SQL para extraer información de la BD de la escuela, utilizando el software TOAD (Aplicación para administrar DB).</li>
-                    <li>Trabajar con compañeros de área y de otras áreas para dar apoyo y solución a problemas relacionados a TI en cumplimiento de tiempos de entrega.</li>
-                    <li>Aprender el uso de nuevo software o nuevas versiones para capacitar a personal administrativo y/o docente (SABRE, CodeBlocks, Office, Paquetería Adobe).</li>
                 </ul>
             </tr>
         </table>

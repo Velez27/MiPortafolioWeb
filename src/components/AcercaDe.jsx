@@ -30,7 +30,7 @@ const AcercaDe = () => (
                     </a>
                 </figure>
                 <figure>
-                    <a target='_blank' href='https://drive.google.com/file/d/1jUqH9zmUtPcmSAVpb6XxoQ8MKEZPKTPK/view?usp=sharing'>
+                    <a target='_blank' href='https://drive.google.com/file/d/1YXH3MdrysnowbV5aapOWd5VWMLXMNyPL/view?usp=sharing'>
                         <img src={miCV} alt='Mi CV' />
                     </a>
                 </figure>
