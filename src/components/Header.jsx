@@ -5,7 +5,7 @@ import logo from '../assets/static/logo-rubik.png';
 
 const Header = () => {
 
-  const title = 'Ing. Jesus Velez Flores';
+  const title = 'Ing. Jesús Vélez Flores';
   const imgTitle = 'Ingeniero en Sistemas';
   return (
   <header className='header'>

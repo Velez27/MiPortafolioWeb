@@ -39,19 +39,28 @@ const AcercaDe = () => (
                     🦉 Java – Intermedio <br />
                         
                     🐪 Golang – Intermedio <br />
-                       
-                    🐿️ SuiteScript 1.0 – Avanzado <br />
-                       
-                    🐑 SuiteScript 2.x – Avanzado <br />
+                        
+                    🦦 SuiteScript 1.0 – Avanzado <br />
+                        
+                    🐈‍⬛ SuiteScript 2.x – Avanzado <br />
                 </div>
                 <div className='column2'>
+                    🦜 Python – Básico <br />
+                        
+                    🐗 Postman – Básico <br />
+                        
+                    🦉 PostgreSQL – Básico <br />
+                        
+                    🦇 Git – Intermedio <br />
+                        
+                    🐋 Docker – Intermedio <br />
+                </div>
+                <div className='column3'>
                     🐘 MySQL – Intermedio <br />
                         
                     🐒 MongoDB – Básico <br />
-                       
+                        
                     🦏 Node.js – Básico <br />
-                       
-                    🦇 Git – Intermedio <br />
                         
                     🐧 React js – Básico <br />
                 </div>
@@ -69,18 +78,18 @@ const AcercaDe = () => (
                     </tr>
                     <tr>
                         <td>
-                            Periodo: Febrero/2022 – Actual <br />
+                            Periodo: Febrero/2022 – Febrero/2025 <br />
                             Puesto: Ingeniero de Software. <br />
                             Actividades:
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        ✔️ Crear scripts (suitescript 1.0 y 2.0) para integrar servicios externos a netsuite que la empresa requiere de acuerdo a su modelo de negocio. <br />
-                        ✔️ Restlets, Suitelets, Client Script, UserEvent Script, MassUpdate, Map/Reduce. <br />
-                        ✔️ Manejo de Git y GitLab para mantener los repositorios del equipo de Desarollo Netsuite. <br />
-                        ✔️ Crear API en Golang, para interactuar con proveedores e impactar acciones en Netsuite(crear facturas).<br />
-                        ✔️ Ajustes de lógica y/o mejoras a proyectos en Go Lang y Java(API’s).
+                        ✔️ Desarrollé y optimicé scripts en SuiteScript (1.0 y 2.0) para integrar servicios externos a NetSuite, alineados con el modelo de negocio de la empresa. <br />
+                        ✔️ Implementé Restlets, Suitelets, Client Scripts, UserEvent Scripts, MassUpdate y Map/Reduce para automatizar y mejorar procesos internos. <br />
+                        ✔️ Gestioné repositorios con Git y GitLab, asegurando un flujo de trabajo eficiente en el equipo de desarrollo de NetSuite y otros proyectos en Java y Go. <br />
+                        ✔️ Desarrolle e integre APIs en Golang para la comunicación con proveedores, permitiendo la automatización de procesos clave como la creación de facturas y registros personalizados en NetSuite. <br />
+                        ✔️ Realicé mejoras y ajustes de lógica en proyectos existentes en Golang y Java, optimizando la funcionalidad de servicios internos y APIs.
                         </td>
                     </tr>
                     <tr>
@@ -95,12 +104,12 @@ const AcercaDe = () => (
                     </tr>
                     <tr>
                         <td>
-                        ✔️ Soporte a los clientes en las diferentes aplicaciones (NetSuite, EFAC) que proporciona la empresa para realizar procesos de contabilidad (Atención a Tickets). <br />
-                        ✔️ Creación y modificación de Plantillas HTML/PDF en NetSuite.<br />
-                        ✔️ Creación y modificación de Reportes y Busquedas Guardadas y extracción de información mediante ODBC en NetSuite. <br />
-                        ✔️ Creación y manipulación de Bundlers. <br />
-                        ✔️ Creación de módulos personalizados en Netsuite para la captura de información. <br />
-                        ✔️ Creación de scripts (suitescript 1.0 y 2.0) y Workflows para definir la lógica de uso en los registros nativos y personalizados de Netsuite. 
+                        ✔️ Desarrollé scripts en SuiteScript (1.0 y 2.0) y Workflows para personalizar y optimizar la gestión de registros en NetSuite. <br />
+                        ✔️ Implementé soluciones con Suitelets, Client Scripts, UserEvent Scripts, MassUpdate y Map/Reduce para mejorar la funcionalidad del sistema. <br />
+                        ✔️ Creé y gestioné bundlers para facilitar la implementación de módulos personalizados en NetSuite. <br />
+                        ✔️ Desarrollé módulos personalizados en NetSuite para la captura y manipulación eficiente de datos. <br />
+                        ✔️ Creé y gestioné Reportes, Busquedas Guardadas y extracción de información mediante ODBC en NetSuite. <br />
+                        ✔️ Diseñe y personalice plantillas HTML/PDF en NetSuite para generar documentos adaptados a las necesidades del negocio.
                         </td>
                     </tr>
                 </table>
