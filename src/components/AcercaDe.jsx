@@ -26,7 +26,7 @@ const AcercaDe = () => (
                     </a>
                 </figure>
                 <figure>
-                    <a target='_blank' href='https://drive.google.com/file/d/15oZtdK_LWhq0hMgk7AQV7txcZrAQGMz8/view'>
+                    <a target='_blank' href='https://drive.google.com/file/d/1ylnbKOKesynqYhQh39GQdfiu5ovsJj3p/view'>
                         <img src={miCV} alt='Mi CV' />
                     </a>
                 </figure>
